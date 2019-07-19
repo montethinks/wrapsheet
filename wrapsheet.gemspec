@@ -14,4 +14,5 @@ Gem::Specification.new do |spec|
   spec.files = Dir["{lib/**/*}"] + %w[LICENSE README.md]
 
   spec.add_development_dependency 'rspec', '~> 3.8.0'
+  spec.add_development_dependency 'pry', '~> 0.12.2'
 end
