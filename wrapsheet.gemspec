@@ -1,6 +1,9 @@
+$:.unshift(File.expand_path '../lib', __FILE__)
+require 'wrapsheet/version'
+
 Gem::Specification.new do |spec|
   spec.name = 'wrapsheet'
-  spec.version = '0.0.1'
+  spec.version = Wrapsheet::VERSION
   spec.authors = ['Monte Williams']
   spec.email = ['monte.williams@gmail.com']
   spec.summary = %q[Make your gsheet life easier]
