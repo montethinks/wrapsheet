@@ -12,4 +12,6 @@ Gem::Specification.new do |spec|
   spec.license = 'MIT'
 
   spec.files = Dir["{lib/**/*}"] + %w[LICENSE README.md]
+
+  spec.add_development_dependency 'rspec', '~> 3.8.0'
 end
